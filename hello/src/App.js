@@ -5,6 +5,7 @@ import theme from "./style/theme";
 import { Card, Image, Text, Box } from "theme-ui";
 
 import Table from "./components/Table";
+var ReactRotatingText = require("react-rotating-text");
 
 class App extends Component {
   render() {
@@ -30,7 +31,19 @@ class App extends Component {
       <ThemeProvider theme={theme}>
         <div className="App">
           <div className="wrapper">
-            <h1>Hej, my name is </h1>
+            <h1>
+              Hej, my name is
+              <ReactRotatingText
+                items={[
+                  " julizet",
+                  " juliazet",
+                  " J.Z.",
+                  " juliazet0",
+                  " Julia Zet",
+                  " Julia",
+                ]}
+              />
+            </h1>
             <Box p={4} color="white" bg="primary">
               Here comes a very long text:
             </Box>
