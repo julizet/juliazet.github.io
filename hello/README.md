@@ -1,3 +1,7 @@
+---
+permalink: /index.html
+---
+
 ## Deploy to GitHub Pages
 run the command: `npm run deploy`
 
