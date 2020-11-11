@@ -1,9 +1,7 @@
-# Getting Started with Create React App
+## Deploy to GitHub Pages
+run the command: `npm run deploy`
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
+## Available React Scripts
 In the project directory, you can run:
 
 ### `npm start`
