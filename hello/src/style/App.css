@@ -12,13 +12,78 @@ code {
     monospace;
 }
 
+.sidebar {
+  position: fixed;
+  height: 100%;
+  z-index: -10;
+  top: 0;
+  left: 0;
+}
+
+.sidebar img {
+  position: fixed;
+  top: -7em;
+  left: -7em;
+  max-width: 60%;
+  max-height: 60%;
+}
+
+.sidebar img:hover {
+  cursor: pointer;
+}
+
+/* marquee */
+.header {
+  position: absolute;
+  padding-right: 1em;
+  height: 5em;
+  width: 50%;
+  z-index: -1;
+  top: 8%;
+  left: 42%;
+  margin-right: 8em;
+  background-color: #fff;
+  text-align: right;
+  border-bottom: 5px solid lightgrey;
+}
+
+.navbar {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.navbar a {
+  color: #ff2150;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0em 2em 0em 2em;
+}
+.navbar a:hover {
+  cursor: pointer;
+  color: lightgrey !important;
+  cursor: pointer;
+}
+
 .wrapper {
-  padding: 4em;
-  text-align: justify;
+  display: grid;
+  position: absolute;
+  top: 0;
+  margin-left: 22%;
+  padding-top: 14em;
+  padding-bottom: 14em;
+  width: 70%;
 }
 
 .cardWrapper {
   display: flex;
+  align-content: space-between;
+}
+
+.banner {
+  height: 100%;
+  width: 4em;
+  margin: auto;
+  background-color: aquamarine;
   align-content: space-between;
 }
 
@@ -27,7 +92,6 @@ code {
   animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s
     infinite;
 }
-
 @keyframes blinking-cursor {
   0% {
     opacity: 0;
@@ -38,4 +102,21 @@ code {
   100% {
     opacity: 0;
   }
+}
+
+.footer {
+  position: fixed;
+  padding-right: 1em;
+  height: 5em;
+  width: 70%;
+  z-index: 1;
+  bottom: 0;
+  left: 22%;
+  margin-right: 8em;
+  background-color: lightgrey;
+  text-align: center;
+}
+
+.footer a {
+  padding: 1em 2em 1em 2em;
 }

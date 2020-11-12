@@ -1,5 +1,5 @@
 const theme = {
-  breakpoints: ["40em", "56em", "64em"],
+  breakpoints: ["40em", "56em", "64em", "128em"],
   fonts: {
     body: "system-ui, sans-serif",
     heading: '"Avenir Next", sans-serif',
@@ -16,7 +16,7 @@ const theme = {
   colors: {
     text: "#000",
     background: "#fff",
-    primary: "#ff4040",
+    primary: "#FF2150",
     secondary: "#3333ff",
   },
   cards: {

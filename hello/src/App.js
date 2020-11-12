@@ -5,7 +5,11 @@ import theme from "./style/theme";
 import { Card, Image, Text, Box } from "theme-ui";
 
 import Table from "./components/Table";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 var ReactRotatingText = require("react-rotating-text");
+
+const Impressum = () => <h2></h2>;
 
 class App extends Component {
   render() {
@@ -30,6 +34,12 @@ class App extends Component {
     return (
       <ThemeProvider theme={theme}>
         <div className="App">
+          <div className="sidebar">
+            <img src="./favicon.ico" hrf="/" alt="This is my favicon." />
+          </div>
+          <div className="header">
+            <Header />
+          </div>
           <div className="wrapper">
             <h1>
               Hej, my name is
@@ -46,6 +56,9 @@ class App extends Component {
             </h1>
             <Box p={4} color="white" bg="primary">
               Here comes a very long text:
+              <marquee behavior="scroll" direction="left" scrollamount="10">
+                <p>There was a minimum of cinnamon in the aluminum pan.</p>
+              </marquee>
             </Box>
             <p>
               {" "}
@@ -67,17 +80,10 @@ class App extends Component {
               neque, tincidunt sit amet lacinia accumsan, pulvinar nec nisl. Ut
               ac euismod ligula. Duis sed nisi porttitor, cursus est vel, congue
               dolor. Nam porta, nibh ac elementum aliquet, leo eros ultricies
-              nisi, vitae ultricies lectus ipsum id nunc. Sed in felis ac nibh
-              accumsan congue vitae eu dolor. Vestibulum faucibus nisi ut
-              pharetra aliquam. Etiam eu odio id risus dignissim dignissim. Duis
-              vitae massa sapien. Donec vulputate commodo lacus, vitae porta
-              magna pretium vitae. Nullam vehicula pharetra nisi in venenatis.
-              Donec quis massa id arcu dictum sagittis. Morbi at sapien dapibus,
-              ornare tortor in, scelerisque lacus. Nam ligula enim, bibendum
-              quis posuere sit amet, egestas eu erat.{" "}
-            </p>
+              nisi, vitae ultricies lectus ipsum id nunc.{" "}
+            </p>{" "}
             <h1>Hej, Jude!</h1>
-            <Box p={3} color="white" bg="#000">
+            <Box p={3} color="white" bg="lightgrey">
               Wanna play cards?
             </Box>
             <div className="cardWrapper">
@@ -108,13 +114,17 @@ class App extends Component {
                 <Image src={logo} />
                 <Text sx={{ textAlign: "center" }}> Clunk</Text>
               </Card>
+              <div className="columnOne"></div>
             </div>
-            <h1>Hej, Jude!</h1>
-            <Box p={4} color="white" bg="secondary">
-              Why not looking at my table?
-            </Box>
-            <Table characterData={characters} />
+            <div className="columnTwo">
+              <h1>Hej, Jude!</h1>
+              <Box p={4} color="white" bg="secondary">
+                Why not looking at my table?
+              </Box>
+              <Table characterData={characters} />
+            </div>
           </div>
+          <Footer />
         </div>
       </ThemeProvider>
     );
