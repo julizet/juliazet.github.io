@@ -9,8 +9,6 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 var ReactRotatingText = require("react-rotating-text");
 
-const Impressum = () => <h2></h2>;
-
 class App extends Component {
   render() {
     const characters = [
@@ -56,9 +54,9 @@ class App extends Component {
             </h1>
             <Box p={4} color="white" bg="primary">
               Here comes a very long text:
-              <marquee behavior="scroll" direction="left" scrollamount="10">
+              {/* <marquee behavior="scroll" direction="left" scrollamount="10">
                 <p>There was a minimum of cinnamon in the aluminum pan.</p>
-              </marquee>
+              </marquee> */}
             </Box>
             <p>
               {" "}
