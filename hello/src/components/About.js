@@ -12,7 +12,7 @@ class About extends Component {
           </Link>
         </div>
         <div className="content">
-          <h2>Hej Hej @About</h2>
+          <h1>About me</h1>
           <p>This side is still under construction.</p>
         </div>
       </div>

@@ -14,7 +14,7 @@ class Contact extends Component {
           </Link>
         </div>
         <div className="content">
-          <h2>Say Hej!</h2>
+          <h1>Say Hej!</h1>
           <p>You can find me in the wide wide wide web.</p>
           <br />
           <a href="https://twitter.com/juliazet0">

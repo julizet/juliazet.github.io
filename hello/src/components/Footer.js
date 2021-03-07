@@ -5,8 +5,6 @@ class Footer extends Component {
     return (
       <div className="footer">
         <a href="/">Impressum</a>
-        <a href="/">Twitter</a>
-        <a href="/">GitHub</a>
       </div>
     );
   }
