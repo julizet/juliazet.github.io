@@ -1,12 +1,28 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Route, withRouter } from "react-router-dom";
 import "./style/App.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
+import About from "./components/About";
+import Contact from "./components/Contact";
+
+const Main = withRouter(({ location }) => {
+  return (
+    <div>
+      <Route exact path="/" component={App} />
+      <Route path="/about" component={About} />
+      <Route path="/contact" component={Contact} />
+    </div>
+  );
+});
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Main />
+    </Router>
   </React.StrictMode>,
   document.getElementById("root")
 );
