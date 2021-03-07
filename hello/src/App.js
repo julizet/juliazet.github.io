@@ -1,10 +1,9 @@
 import { Component } from "react";
-import logo from "./favicon.ico";
+import logo from "./assets/favicon.ico";
 import { ThemeProvider } from "theme-ui";
 import theme from "./style/theme";
 import { Card, Image, Text, Box } from "theme-ui";
 
-import Table from "./components/Table";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 var ReactRotatingText = require("react-rotating-text");
@@ -14,7 +13,7 @@ class App extends Component {
     return (
       <ThemeProvider theme={theme}>
         <div className="sidebar">
-          <img src="./favicon.ico" hrf="/" alt="This is my favicon." />
+          <img src={logo} hrf="/" alt="This is my favicon." />
         </div>
         <div className="header">
           <Header />
