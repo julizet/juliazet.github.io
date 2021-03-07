@@ -7,6 +7,7 @@ import reportWebVitals from "./reportWebVitals";
 
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Imprint from "./components/Imprint";
 
 const Main = withRouter(({ location }) => {
   return (
@@ -14,6 +15,7 @@ const Main = withRouter(({ location }) => {
       <Route exact path="/" component={App} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
+      <Route path="/imprint" component={Imprint} />
     </div>
   );
 });
