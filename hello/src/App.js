@@ -91,13 +91,6 @@ class App extends Component {
               <Image src={logo} />
               <Text sx={{ textAlign: "center" }}> Clunk</Text>
             </Card>
-            <div className="columnOne"></div>
-          </div>
-          <div className="columnTwo">
-            <h2>Hej, Jude!</h2>
-            <Box p={3} color="white" bg="secondary">
-              Why not looking at my table?
-            </Box>
           </div>
         </div>
         <Footer />
