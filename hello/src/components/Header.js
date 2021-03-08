@@ -32,24 +32,18 @@ const Header = () => {
       >
         {colorMode === "default" ? "Dark" : "Light"}
       </div>
-      <div
-        sx={{
-          display: "inline-block",
-        }}
-      >
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-          <Link to={"/about"} className="nav-link">
-            About
-          </Link>
-          <Link to={"/contact"} className="nav-link">
-            Contact
-          </Link>
-        </nav>
-        <Switch>
-          <Route path="/contact" component={Contact} />
-          <Route path="/about" component={About} />
-        </Switch>
-      </div>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <Link to={"/about"} className="nav-link">
+          About
+        </Link>
+        <Link to={"/contact"} className="nav-link">
+          Contact
+        </Link>
+      </nav>
+      <Switch>
+        <Route path="/contact" component={Contact} />
+        <Route path="/about" component={About} />
+      </Switch>
     </div>
   );
 };
