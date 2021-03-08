@@ -2,13 +2,12 @@ import { Component } from "react";
 import logo from "./assets/favicon.ico";
 import { ThemeProvider } from "theme-ui";
 import theme from "./style/theme";
-import { Card, Image, Text, Box } from "theme-ui";
+import { Card, Image, Text, Badge } from "theme-ui";
 import { Link } from "react-router-dom";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-
-var ReactRotatingText = require("react-rotating-text");
+import Rotation from "./components/Rotation";
 
 class App extends Component {
   render() {
@@ -22,27 +21,34 @@ class App extends Component {
           </div>
           <div className="header">
             <Header />
+            <Badge p={1} ml={2} bg={"secondary"} color={"#000"}>
+              Civic
+            </Badge>
+            <Badge p={1} ml={2} bg={"secondary"} color={"#000"}>
+              Open Source
+            </Badge>
+            <Badge p={1} ml={2} bg={"secondary"} color={"#000"}>
+              Web Prototyping
+            </Badge>
           </div>
           <div className="content">
-            <h1>
-              Hej, my name is
-              <ReactRotatingText
-                items={[
-                  " julizet",
-                  " juliazet",
-                  " J.Z.",
-                  " juliazet0",
-                  " Julia Zet",
-                  " Julia",
-                ]}
-              />
-            </h1>
-            <Box p={3} color="white" bg="primary">
-              Here comes a very long text:
-              {/* <marquee behavior="scroll" direction="left" scrollamount="10">
-                <p>There was a minimum of cinnamon in the aluminum pan.</p>
-              </marquee> */}
-            </Box>
+            <Rotation></Rotation>
+            <span
+              style={{
+                display: "inline-block",
+                background: "#d0fedc",
+                width: 4 + "em",
+                height: 1 + "em",
+              }}
+            ></span>
+            <h3
+              style={{
+                display: "inline-block",
+                marginLeft: 0.5 + "em",
+              }}
+            >
+              Civic
+            </h3>
             <p>
               {" "}
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
@@ -61,10 +67,22 @@ class App extends Component {
               potenti. Nullam ex arcu, interdum id bibendum id, fringilla sit
               amet turpis.{" "}
             </p>{" "}
-            <h2>Hej, Jude!</h2>
-            <Box p={3} color="white" bg="lightgrey">
-              Wanna play cards?
-            </Box>
+            <span
+              style={{
+                display: "inline-block",
+                background: "#d0fedc",
+                width: 4 + "em",
+                height: 1 + "em",
+              }}
+            ></span>
+            <h3
+              style={{
+                display: "inline-block",
+                marginLeft: 0.5 + "em",
+              }}
+            >
+              Open Source
+            </h3>
             <div className="cardWrapper">
               <Card
                 sx={{
@@ -94,6 +112,29 @@ class App extends Component {
                 <Text sx={{ textAlign: "center" }}> Clunk</Text>
               </Card>
             </div>
+            <span
+              style={{
+                display: "inline-block",
+                background: "#d0fedc",
+                width: 4 + "em",
+                height: 1 + "em",
+              }}
+            ></span>
+            <h3
+              style={{
+                display: "inline-block",
+                marginLeft: 0.5 + "em",
+              }}
+            >
+              Web Prototyping
+            </h3>
+            <p>
+              {" "}
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+              sagittis purus sit amet magna fermentum pharetra. Vivamus volutpat
+              ante in felis dapibus semper. Aenean suscipit metus tristique odio
+              sagittis, at pulvinar augue ultricies.{" "}
+            </p>{" "}
             <Footer />
           </div>
         </div>
