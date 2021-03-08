@@ -8,7 +8,7 @@ class Footer extends Component {
     return (
       <div className="footer">
         <Link to={"/imprint"} className="nav-link">
-          <a href="/">Imprint</a>
+          Imprint
         </Link>
         <Switch>
           <Route path="/imrpint" component={Imprint} />
