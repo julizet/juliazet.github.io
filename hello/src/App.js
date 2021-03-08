@@ -21,13 +21,13 @@ class App extends Component {
           </div>
           <div className="header">
             <Header />
-            <Badge p={1} ml={2} bg={"secondary"} color={"#000"}>
+            <Badge p={1} ml={2} mb={1} bg={"secondary"} color={"#000"}>
               Civic
             </Badge>
-            <Badge p={1} ml={2} bg={"secondary"} color={"#000"}>
+            <Badge p={1} ml={2} mb={1} bg={"secondary"} color={"#000"}>
               Open Source
             </Badge>
-            <Badge p={1} ml={2} bg={"secondary"} color={"#000"}>
+            <Badge p={1} ml={2} mb={1} bg={"secondary"} color={"#000"}>
               Web Prototyping
             </Badge>
           </div>
@@ -39,6 +39,7 @@ class App extends Component {
                 background: "#d0fedc",
                 width: 4 + "em",
                 height: 1 + "em",
+                borderRadius: 0.1 + "em",
               }}
             ></span>
             <h3
@@ -47,7 +48,7 @@ class App extends Component {
                 marginLeft: 0.5 + "em",
               }}
             >
-              Civic
+              Civic Fun
             </h3>
             <p>
               {" "}
@@ -73,6 +74,7 @@ class App extends Component {
                 background: "#d0fedc",
                 width: 4 + "em",
                 height: 1 + "em",
+                borderRadius: 0.1 + "em",
               }}
             ></span>
             <h3
@@ -118,6 +120,7 @@ class App extends Component {
                 background: "#d0fedc",
                 width: 4 + "em",
                 height: 1 + "em",
+                borderRadius: 0.1 + "em",
               }}
             ></span>
             <h3
