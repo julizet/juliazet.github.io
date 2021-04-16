@@ -12,12 +12,15 @@ class Footer extends Component {
         <div className="footer">
           <br />
           <Link to={"/imprint"} className="nav-link">
-            Imprint
+            <p>Imprint</p>
           </Link>
           <Switch>
             <Route path="/imrpint" component={Imprint} />
           </Switch>
         </div>
+        <br />
+        <br />
+        <br />
       </div>
     );
   }

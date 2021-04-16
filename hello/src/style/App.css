@@ -132,14 +132,14 @@ code {
 }
 
 .footer a {
-  color: black;
+  color: lightgray;
   font-weight: 500;
   text-decoration: none;
 }
 
 .footer a:hover {
   cursor: pointer;
-  color: lightgrey !important;
+  color: #ff2150 !important;
   cursor: pointer;
 }
 
