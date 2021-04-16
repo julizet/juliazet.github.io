@@ -1,8 +1,10 @@
 import React, { Component } from "react";
+
 import logo from "../assets/favicon.ico";
 import twitter from "../assets/twitter-128.png";
 import linkedin from "../assets/linkedin-128.png";
 import { Link } from "react-router-dom";
+import Header from "./Header";
 
 class Contact extends Component {
   render() {
@@ -15,8 +17,7 @@ class Contact extends Component {
         </div>
         <div className="content">
           <h1>Say Hej!</h1>
-          <p>You can find me in the wide wide wide web.</p>
-          <br />
+          <p>You can find me in the wide wide web</p>
           <a href="https://twitter.com/juliazet0">
             <img src={twitter} target="_blank" alt="twitter icon" width="5%" />
           </a>
@@ -31,6 +32,21 @@ class Contact extends Component {
               width="5%"
             />
           </a>
+          <br />
+          <br />
+          <p>
+            Or simply send me an email<br></br>
+            <a
+              href="mailto:juliazet@gmx.de?subject=Hej, Julia! Email from your Website"
+              style={{
+                fontWeight: "500",
+                textDecoration: "none",
+                color: "#ff2150",
+              }}
+            >
+              juliazet@gmx.de
+            </a>{" "}
+          </p>
         </div>
       </div>
     );
