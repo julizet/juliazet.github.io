@@ -5,6 +5,7 @@ import { useColorMode } from "theme-ui";
 
 import About from "./About";
 import Contact from "./Contact";
+import Badges from "./Badges";
 
 const Header = () => {
   const [colorMode, setColorMode] = useColorMode();
@@ -44,6 +45,7 @@ const Header = () => {
         <Route path="/contact" component={Contact} />
         <Route path="/about" component={About} />
       </Switch>
+      <Badges></Badges>
     </div>
   );
 };

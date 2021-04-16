@@ -2,7 +2,7 @@ import { Component } from "react";
 import logo from "./assets/favicon.ico";
 import { ThemeProvider } from "theme-ui";
 import theme from "./style/theme";
-import { Card, Image, Text, Badge } from "theme-ui";
+import { Card, Image, Text } from "theme-ui";
 import { Link } from "react-router-dom";
 
 import Header from "./components/Header";
@@ -21,15 +21,6 @@ class App extends Component {
           </div>
           <div className="header">
             <Header />
-            <Badge p={1} ml={2} mb={1} bg={"secondary"} color={"#000"}>
-              Civic
-            </Badge>
-            <Badge p={1} ml={2} mb={1} bg={"secondary"} color={"#000"}>
-              Open Source
-            </Badge>
-            <Badge p={1} ml={2} mb={1} bg={"secondary"} color={"#000"}>
-              Web Prototyping
-            </Badge>
           </div>
           <div className="content">
             <Rotation></Rotation>
@@ -48,7 +39,7 @@ class App extends Component {
                 marginLeft: 0.5 + "em",
               }}
             >
-              Civic Fun
+              Civic Engagement
             </h3>
             <p>
               {" "}
