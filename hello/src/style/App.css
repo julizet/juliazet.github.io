@@ -125,17 +125,14 @@ code {
 .footer {
   position: absolute;
   right: 0;
-  bottom: 0;
-  left: 0;
   height: 6em;
-  width: 76%;
-  left: 24%;
+  width: 44%;
   text-align: right;
-  padding: 4em 4px 3em 0em;
+  border-top: 4px solid lightgrey;
 }
 
 .footer a {
-  color: #ff2150;
+  color: black;
   font-weight: 500;
   text-decoration: none;
 }
@@ -174,7 +171,7 @@ code {
 /* iPhone 7 */
 @media only screen and (max-width: 375px) {
   .content {
-    margin-top: 10em;
+    margin-top: 12em;
   }
 
   .sidebar img {

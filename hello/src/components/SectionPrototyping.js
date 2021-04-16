@@ -28,6 +28,8 @@ class SectionPrototyping extends Component {
           felis dapibus semper. Aenean suscipit metus tristique odio sagittis,
           at pulvinar augue ultricies.{" "}
         </p>{" "}
+        <br />
+        <br />
       </div>
     );
   }

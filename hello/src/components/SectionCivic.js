@@ -38,6 +38,8 @@ class SectionCivic extends Component {
           tristique. Suspendisse potenti. Nullam ex arcu, interdum id bibendum
           id, fringilla sit amet turpis.{" "}
         </p>{" "}
+        <br />
+        <br />
       </div>
     );
   }

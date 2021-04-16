@@ -52,6 +52,8 @@ class SectionOpenSource extends Component {
             <Text sx={{ textAlign: "center" }}> Clunk</Text>
           </Card>
         </div>
+        <br />
+        <br />
       </div>
     );
   }
