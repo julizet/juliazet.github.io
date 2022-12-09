@@ -16,7 +16,7 @@ class App extends Component {
   render() {
     return (
       <ThemeProvider theme={theme}>
-        <div class="modal">
+        {/* <div class="modal">
           <img
             style={{ maxWidth: 40 + "px" }}
             src={hello}
@@ -25,7 +25,7 @@ class App extends Component {
           <h4 style={{ marginTop: -10 + "em" }}>
             This website is under construction
           </h4>
-        </div>
+        </div> */}
         <div className="overlay">
           <div className="wrapper">
             <div className="sidebar">
