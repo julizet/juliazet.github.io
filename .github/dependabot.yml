@@ -4,7 +4,7 @@
 version: 1
 updates:
   - package-ecosystem: "javascript"
-    directory: "/hello/"
+    directory: "/"
     schedule:
       interval: "weekly"
     automerged_updates:
