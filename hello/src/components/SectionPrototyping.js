@@ -23,10 +23,8 @@ class SectionPrototyping extends Component {
         </h3>
         <p>
           {" "}
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis
-          purus sit amet magna fermentum pharetra. Vivamus volutpat ante in
-          felis dapibus semper. Aenean suscipit metus tristique odio sagittis,
-          at pulvinar augue ultricies.{" "}
+          How I work? Mainly with GitHub, Python and JavaScript. Everything else
+          is written in the documentation ;){" "}
         </p>{" "}
         <br />
         <br />
