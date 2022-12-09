@@ -1,6 +1,4 @@
----
-permalink: /index.html
----
+*Visit my website based on GitHub Pages: https://julizet.github.io/*
 
 ## Deploy to GitHub Pages
 Run the command: `npm run deploy`
