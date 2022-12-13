@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Route, Link, Switch } from "react-router-dom";
 
-import Imprint from "./Imprint";
+import Imprint from "../Imprint/index.js";
 
 class Footer extends Component {
   render() {
@@ -15,7 +15,7 @@ class Footer extends Component {
             <p>Imprint</p>
           </Link>
           <Switch>
-            <Route path="/imrpint" component={Imprint} />
+            <Route path="/imprint" component={Imprint} />
           </Switch>
         </div>
         <br />

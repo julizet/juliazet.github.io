@@ -3,9 +3,9 @@ import React from "react";
 import { Route, Link, Switch } from "react-router-dom";
 import { useColorMode } from "theme-ui";
 
-import About from "./About";
-import Contact from "./Contact";
-import Badges from "./Badges";
+import About from "../About";
+import Contact from "../Contact";
+import Badges from "../Badges";
 
 const Header = () => {
   const [colorMode, setColorMode] = useColorMode();

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "../assets/favicon.ico";
+import logo from "../../assets/favicon.ico";
 import { Link } from "react-router-dom";
 
 class Imprint extends Component {

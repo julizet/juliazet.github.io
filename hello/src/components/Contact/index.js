@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
-import logo from "../assets/favicon.ico";
-import twitter from "../assets/twitter-128.png";
-import linkedin from "../assets/linkedin-128.png";
+import logo from "../../assets/favicon.ico";
+import twitter from "../../assets/twitter-128.png";
+import linkedin from "../../assets/linkedin-128.png";
 import { Link } from "react-router-dom";
-import Header from "./Header";
+import Header from "../Header/index.js";
 
 class Contact extends Component {
   render() {

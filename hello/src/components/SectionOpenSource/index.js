@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "../assets/favicon.ico";
+import logo from "../../assets/favicon.ico";
 import { Card, Image, Text } from "theme-ui";
 
 class SectionOpenSource extends Component {
