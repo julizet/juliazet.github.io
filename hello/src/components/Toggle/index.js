@@ -9,6 +9,8 @@ const Toggle = () => {
       onClick={() => setColorMode(colorMode === "default" ? "dark" : "default")}
       sx={{
         fontWeight: "bold",
+        fontSize: 20,
+        height: 20,
         marginBottom: 2,
         ":hover": {
           cursor: "pointer",
