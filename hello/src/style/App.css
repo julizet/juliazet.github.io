@@ -83,9 +83,8 @@ code {
 }
 
 /* marquee */
-.header {
+.header-line {
   position: absolute;
-  padding-right: 2px;
   height: 5em;
   width: 44%;
   left: 48%;
@@ -95,7 +94,7 @@ code {
 }
 
 .navbar {
-  width: 10em;
+  width: 8em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
