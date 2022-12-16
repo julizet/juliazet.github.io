@@ -16,9 +16,9 @@ class Contact extends Component {
         </div>
         <div className="content">
           <h1>Say Hej!</h1>
-          <p>You can find me in the wide wide web</p>
+          <p>You can find me in the wide wide web:</p>
           <a href="https://twitter.com/juliazet0">
-            <img src={twitter} target="_blank" alt="twitter icon" width="5%" />
+            <img src={twitter} target="_blank" alt="twitter icon" width="4%" />
           </a>
           <a
             href="https://www.linkedin.com/in/julia-zimmermann-325026207/"
@@ -28,23 +28,23 @@ class Contact extends Component {
               src={linkedin}
               target="_blank"
               alt="linkedin icon"
-              width="5%"
+              width="4%"
             />
           </a>
           <br />
           <br />
           <p>
-            Or simply send me an email<br></br>
-            <a
-              href="mailto:juliazet@gmx.de?subject=Hej, Julia! Email from your Website"
+            Or simply send me an email:<br></br>
+            <p
               style={{
-                fontWeight: "500",
+                fontWeight: "700",
+
                 textDecoration: "none",
                 color: "#ff2150",
               }}
             >
-              juliazet@gmx.de
-            </a>{" "}
+              juliazet[at]gmx.de
+            </p>{" "}
           </p>
         </div>
       </div>
