@@ -7,7 +7,7 @@ import Contact from "../Contact";
 
 const Navigation = () => {
   return (
-    <div class="menu">
+    <div className="menu">
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <Link to={"/about"} className="nav-link">
           About
@@ -16,10 +16,6 @@ const Navigation = () => {
           Contact
         </Link>
       </nav>
-      <Switch>
-        <Route path="/contact" component={Contact} />
-        <Route path="/about" component={About} />
-      </Switch>
     </div>
   );
 };

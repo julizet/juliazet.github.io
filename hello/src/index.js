@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { ThemeProvider } from "theme-ui";
+import theme from "./style/theme";
 import { BrowserRouter as Router, Route, withRouter } from "react-router-dom";
 import "./style/App.css";
 import App from "./App";
@@ -8,15 +10,26 @@ import reportWebVitals from "./reportWebVitals";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Imprint from "./components/Imprint";
+import Navigation from "./components/Navigation/index.js";
+import Toggle from "./components/Toggle/index.js";
+import Badges from "./components/Badges";
 
 const Main = withRouter(({ location }) => {
   return (
-    <div>
-      <Route exact path="/" component={App} />
-      <Route path="/about" component={About} />
-      <Route path="/contact" component={Contact} />
-      <Route path="/imprint" component={Imprint} />
-    </div>
+    <ThemeProvider theme={theme}>
+      {}
+      <div className="App">
+        <div className="header">
+          <Toggle />
+          <Navigation />
+          <Badges />
+        </div>
+        <Route exact path="/" component={App} />
+        <Route path="/about" component={About} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/imprint" component={Imprint} />
+      </div>
+    </ThemeProvider>
   );
 });
 
