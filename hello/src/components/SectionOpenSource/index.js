@@ -1,20 +1,13 @@
 import React, { Component } from "react";
 import logo from "../../assets/favicon.ico";
 import { Card, Image, Text } from "theme-ui";
+import Tag from "../Tag";
 
 class SectionOpenSource extends Component {
   render() {
     return (
       <div>
-        <span
-          style={{
-            display: "inline-block",
-            background: "#d0fedc",
-            width: 4 + "em",
-            height: 1 + "em",
-            borderRadius: 0.1 + "em",
-          }}
-        ></span>
+        <Tag></Tag>
         <h3
           style={{
             display: "inline-block",

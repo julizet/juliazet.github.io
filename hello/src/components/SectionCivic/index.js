@@ -1,18 +1,11 @@
 import React, { Component } from "react";
+import Tag from "../Tag";
 
 class SectionCivic extends Component {
   render() {
     return (
       <div>
-        <span
-          style={{
-            display: "inline-block",
-            background: "#d0fedc",
-            width: 4 + "em",
-            height: 1 + "em",
-            borderRadius: 0.1 + "em",
-          }}
-        ></span>
+        <Tag></Tag>
         <h3
           style={{
             display: "inline-block",
