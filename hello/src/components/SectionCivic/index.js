@@ -26,13 +26,11 @@ class SectionCivic extends Component {
           We are moving into the age of digital mass production. More and more
           software, apps and programs are being created that often end up being
           very similar. Fortunately, some of these applications are published as
-          open source code, usable for free. And this is where I enter the
-          stage: I help cities and municipalities set up already existing open
-          source solutions to provide their citizens digital solutions that
-          really add value. Away from mass production, towards sustainable
-          deployment.{" "}
+          open source code, usable for free, for everybody. By helping cities and
+          municipalities to set up already existing, proven open source solutions
+          we can provide digital solutions that really add value.
+          Away from mass production, towards sustainable deployment.{" "}
         </p>{" "}
-        <br />
         <br />
       </div>
     );
