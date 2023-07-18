@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import logo from "../../assets/favicon.ico";
-import me from "../../assets/moi_github.jpg";
+import logo from "../assets/favicon.ico";
+import me from "../assets/moi_github.jpg";
 import { Link } from "react-router-dom";
 
 class About extends Component {
