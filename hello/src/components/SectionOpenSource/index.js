@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import logo from "../../assets/favicon.ico";
-import { Card, Image, Text } from "theme-ui";
+import github from "../../assets/github-mark.svg";
 import Tag from "../Tag";
 
 class SectionOpenSource extends Component {
@@ -16,34 +15,15 @@ class SectionOpenSource extends Component {
         >
           Open Source
         </h3>
+        <br />
+        <br />
         <div className="cardWrapper">
-          <Card
-            sx={{
-              margin: 4,
-              maxWidth: 220,
-            }}
-          >
-            <Image src={logo} />
-            <Text sx={{ textAlign: "center" }}> Beep</Text>
-          </Card>
-          <Card
-            sx={{
-              margin: 4,
-              maxWidth: 220,
-            }}
-          >
-            <Image src={logo} />
-            <Text sx={{ textAlign: "center" }}> Meep</Text>
-          </Card>
-          <Card
-            sx={{
-              margin: 4,
-              maxWidth: 220,
-            }}
-          >
-            <Image src={logo} />
-            <Text sx={{ textAlign: "center" }}> Clunk</Text>
-          </Card>
+          <p>More coming soon...</p>
+          <a href="https://github.com/julizet" target="_blank" rel="noopener noreferrer">
+            <img src={github} alt="Link to my GithHub" style={{
+            maxHeight: "10vh",
+          }}/>
+          </a>
         </div>
         <br />
         <br />
