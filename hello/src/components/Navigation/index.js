@@ -1,9 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /** @jsxImportSource theme-ui */
-import { Route, Link, Switch } from "react-router-dom";
-
-import About from "../About";
-import Contact from "../Contact";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
