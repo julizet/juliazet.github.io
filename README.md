@@ -1,4 +1,4 @@
-*Visit my website based on GitHub Pages: https://juliazet.github.io/*
+*Visit my website based on GitHub Pages: https://julizet.github.io/*
 
 ## Deploy to GitHub Pages
 Run the command: `npm run deploy`
