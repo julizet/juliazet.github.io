@@ -13,7 +13,7 @@ class SectionOpenSource extends Component {
             marginLeft: 0.5 + "em",
           }}
         >
-          Open Source
+          Open Source Code
         </h3>
         <br />
         <br />
