@@ -4,11 +4,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/jest-dom": "^6.1.4",
     "@testing-library/react": "^12.1.5",
+<<<<<<< HEAD
     "@testing-library/user-event": "^14.4.3",
     "gh-pages": "^6.0.0",
     "jest-dom": "^4.0.0",
+=======
+    "@testing-library/user-event": "^14.5.1",
+    "gh-pages": "^5.0.0",
+>>>>>>> 83ccc5039c7f663dbe29fcd30004c3b16e27dc6d
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-rotating-text": "^1.4.1",
